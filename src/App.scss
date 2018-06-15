@@ -1,12 +1,15 @@
 a, a:visited, a:active {
-  color: #2A6DC7; }
+  color: #2A6DC7;
+}
 
 a:hover {
   color: #343434;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 font {
-  color: #343434; }
+  color: #343434;
+}
 
 input {
   height: 40px;
@@ -16,27 +19,32 @@ input {
   -moz-transition: all 0.30s ease-in-out;
   -ms-transition: all 0.30s ease-in-out;
   -o-transition: all 0.30s ease-in-out;
-  color: #2A6DC7; }
+  color: #2A6DC7;
+}
 
 input:focus {
   border-bottom: 2px solid #FFB762;
-  outline: none; }
+  outline: none;
+}
 
 input::placeholder {
-  color: #9DBCE6; }
+  color: #9DBCE6;
+}
 
 .container-primary {
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .container-timesheet-input {
   display: flex;
   flex-direction: column;
   width: 50%;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+}
 
 .container-timesheet-output {
   display: flex;
@@ -45,10 +53,12 @@ input::placeholder {
   justify-content: space-between;
   align-items: center;
   background-color: #2A6DC7;
-  color: #95C0F9; }
+  color: #95C0F9;
+}
 
 hr {
   border: none;
-  height: 1px;
-  color: #E6EEF9;
-  background-color: #E6EEF9; }
+    height: 1px;
+    color: #E6EEF9;
+    background-color: #E6EEF9;
+}

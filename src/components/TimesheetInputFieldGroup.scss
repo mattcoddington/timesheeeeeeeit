@@ -1,0 +1,25 @@
+.timesheet-field-group-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: right;
+  margin-bottom: 48px;
+}
+
+.timesheet-input-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.timesheet-input-row div {
+  padding-right: 24px;
+}
+
+.timesheet-day-of-week {
+  min-width: 85px;
+}
+
+input {
+  max-width: 85px;
+}

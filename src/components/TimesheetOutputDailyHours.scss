@@ -1,0 +1,50 @@
+.daily-hours-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+
+.daily-hours-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin: 24px 0 32px 0;
+}
+
+.daily-hours-header {
+  color: #95C0F9;
+  height: 24px !important;
+}
+
+.daily-hours-days {
+  padding-right: 12px;
+}
+
+.daily-hours-row {
+  background-color: #357BD9;
+}
+
+.daily-hours-row-alt {
+  background-color: #2F76D5;
+}
+
+.daily-hours-cell {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  min-width: 128px;
+  border-right: #2A6DC7 solid 1px;
+  border-bottom: #2A6DC7 solid 1px;
+  padding-left: 12px;
+  font-size: 0.80rem !important;
+}
+
+.daily-hours-cell-day {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 43px;
+}

@@ -1,0 +1,27 @@
+.top-navigation-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 100%;
+  border-bottom: 1px solid #E6EEF9;
+  font-size: .80em;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(36,35,61,0.10);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(36,35,61,0.10);
+  box-shadow: 0px 1px 5px 0px rgba(36,35,61,0.10);
+}
+
+.top-navigation-container div {
+  padding: 0 16px 0 16px;
+}
+
+.top-navigation-container img {
+  max-height: 30px;
+}
+
+.top-navigation-subcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+}

@@ -1,0 +1,12 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-top: #E6EEF9 solid 1px;
+  font-size: .80em;
+}
+
+.footer-container div {
+  padding: 24px;
+}
