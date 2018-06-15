@@ -193,6 +193,7 @@ class App extends Component {
 
         </div>
         <Footer />
+        Deploy
       </div>
     );
   }
