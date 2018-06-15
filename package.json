@@ -1,6 +1,5 @@
 {
   "name": "timesheeeeeeeit",
-  "homepage": "http://mattcoddington.github.io/Timesheeeeeeeit",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,8 +19,6 @@
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^1.2.0"
