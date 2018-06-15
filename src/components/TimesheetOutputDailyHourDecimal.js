@@ -19,23 +19,23 @@ class TimesheetOutputDailyHourDecimal extends Component {
         return 12
       }
 
-        else if (hoursOut >= hoursIn && minutesOut >= minutesIn) {
+        else if (hoursOut >= hoursIn && minutesOut >= minutesIn && hoursOut !== 0 && hoursIn !== 0) {
         return (hoursOut - hoursIn) + (((minutesOut + (60 - minutesIn)) / 60) - 1);
       }
 
-        else if (hoursOut >= hoursIn && minutesOut < minutesIn) {
+        else if (hoursOut >= hoursIn && minutesOut < minutesIn && hoursOut !== 0 && hoursIn !== 0) {
         return (hoursOut - hoursIn) + ((minutesOut + (60 - minutesIn)) / 60) - 1;
       }
 
-        else if (hoursOut < hoursIn && minutesIn === minutesOut) {
+        else if (hoursOut < hoursIn && minutesIn === minutesOut && hoursOut !== 0 && hoursIn !== 0) {
           return (hoursOut - hoursIn) + 12
       }
 
-        else if (hoursOut < hoursIn && minutesOut > minutesIn) {
+        else if (hoursOut < hoursIn && minutesOut > minutesIn && hoursOut !== 0 && hoursIn !== 0) {
           return (hoursOut - hoursIn) + 12 + ((minutesOut + (60 - minutesIn)) / 60) - 1
       }
 
-        else if (hoursOut < hoursIn && minutesIn > minutesOut) {
+        else if (hoursOut < hoursIn && minutesIn > minutesOut && hoursOut !== 0 && hoursIn !== 0) {
           return (hoursOut - hoursIn) + 12 + ((minutesOut + (60 - minutesIn)) / 60) - 1
       }
 
