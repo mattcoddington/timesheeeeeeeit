@@ -1,4 +1,6 @@
 .summary-background {
+  display: flex;
+  justify-content: center;
   background-color: #205FB3;
   width: 100%;
 }
@@ -9,6 +11,9 @@
   margin: 24px;
   font-size: 0.75rem;
   text-transform: uppercase;
+  width: 100%;
+  min-width: 360px;
+  max-width: 500px;
 }
 
 .summary-column {

@@ -26,7 +26,7 @@ class TimesheetOutputSummary extends Component {
           <div className="summary-column">
             <div className="summary-right-align summary-column-icon summary-header">+</div>
             <div>&nbsp;</div>
-            <div className="summary-border-bottom">&nbsp;</div>
+            <div>&nbsp;</div>
           </div>
           <div className="summary-column">
             <div className="summary-header">Overtime</div>
@@ -36,7 +36,7 @@ class TimesheetOutputSummary extends Component {
           <div className="summary-column">
             <div className="summary-right-align summary-column-icon summary-header">=</div>
             <div>&nbsp;</div>
-            <div className="summary-border-bottom">&nbsp;</div>
+            <div>&nbsp;</div>
           </div>
           <div className="summary-column summary-last-column">
             <div className="summary-right-align summary-header">Total</div>

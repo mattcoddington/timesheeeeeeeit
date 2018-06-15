@@ -62,3 +62,19 @@ hr {
     color: #E6EEF9;
     background-color: #E6EEF9;
 }
+
+@media screen and (max-width: 918px) /* Desktop */ {
+  .container-primary {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-timesheet-input {
+    width: 100%;
+  }
+
+  .container-timesheet-output {
+    width: 100%;
+  }
+}
