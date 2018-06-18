@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer-container">
-          <div><img src={mc} alt="MC" /></div>
+          <div><a href="http://www.matthewcoddington.com"><img src={mc} alt="MC" /></a></div>
           <div>&nbsp;</div>
       </div>
     );
