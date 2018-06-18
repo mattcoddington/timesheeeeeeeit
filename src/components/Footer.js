@@ -7,7 +7,6 @@ class Footer extends Component {
     return (
       <div className="footer-container">
           <div><a href="http://www.matthewcoddington.com"><img src={mc} alt="MC" /></a></div>
-          <div>&nbsp;</div>
       </div>
     );
   }
