@@ -25,3 +25,9 @@
   justify-content: space-between;
   width: 1200px;
 }
+
+@media screen and (max-width: 918px) /* Desktop */ {
+  .top-navigation-subcontainer {
+    justify-content: center;
+  }
+}

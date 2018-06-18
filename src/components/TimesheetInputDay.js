@@ -62,8 +62,8 @@ class TimesheetInputDay extends Component {
                           }
                         })()}
                       </div>
-                      <div><input type="time" placeholder="In" value={results.timeIn} onChange={(e) => this.handleTimeInOnChange(i + 1, e)} /></div>
-                      <div><input type="time" placeholder="Out" value={results.timeOut} onChange={(e) => this.handleTimeOutOnChange(i + 1, e)} /></div>
+                      <div><input type="number" placeholder="In" value={results.timeIn} onChange={(e) => this.handleTimeInOnChange(i + 1, e)} /></div>
+                      <div><input type="number" placeholder="Out" value={results.timeOut} onChange={(e) => this.handleTimeOutOnChange(i + 1, e)} /></div>
                       <div className="input-row-icon-cell">
                         {(() => {
                           if (i === this.state.totalPeriods - 1) {
