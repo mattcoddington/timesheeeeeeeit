@@ -1,3 +1,3 @@
 I figured I would keep practicing React by making this super sweet timesheet app.
 
-Live on Netlify: [Timesheeeeeeeit](http://5b2425028df894515ac10137.nervous-heisenberg-fbb110.netlify.com/).
+Live on Netlify: [Timesheeeeeeeit](https://nostalgic-goldwasser-8cb788.netlify.com).
